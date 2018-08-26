@@ -1,0 +1,26 @@
+{
+  "name": "tradingview-jsapi-binance",
+  "version": "0.1.0",
+  "description": "Sample implementation of TradingView Charting Library JS API for Binance exchange",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "proxy": "node binance-proxy.js",
+    "serve": "http-server -p 8080 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergusman/tradingview-jsapi-binance.git"
+  },
+  "author": "Vitaly Berg <bergusman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergusman/tradingview-jsapi-binance/issues"
+  },
+  "homepage": "https://github.com/bergusman/tradingview-jsapi-binance#readme"
+}
